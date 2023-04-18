@@ -1,0 +1,175 @@
+body {
+    font-family: 'Alkatra', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(gymnew.jpg);
+    height: 100vh;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 150px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.navbar {
+    display: block;
+    width: 36%;
+    margin: 29px 445px auto;
+    border: 2px solid rgb(117, 0, 128); 
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar a:hover,
+.navbar a.active {
+    text-decoration: underline;
+    color: white;
+    background-color: grey;
+
+}
+
+.btn {
+    font-family: 'Alkatra', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 120px 147px;
+    padding: 70px;
+    border-radius: 28px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+    text-decoration: underline;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f3f0f0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #777272;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  footer{
+    position: sticky;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
